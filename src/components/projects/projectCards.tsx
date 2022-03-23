@@ -36,10 +36,12 @@ const StyledProfile = styled.div`
   margin-top: 1.5rem;
 
   .profile-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
     img {
-      width: 2rem;
-      height: auto;
-      border-radius: 50%;
+     width: 100%;
     }
   }
   .name-section {

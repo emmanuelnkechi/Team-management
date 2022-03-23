@@ -132,14 +132,16 @@ const StyledTask = styled.div<{ collapse: boolean }>`
   margin-top: 3rem;
   .plus-icon {
     background: #1d5cfc;
-    width: 2.5rem;
-    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
+    overflow: hidden;
     svg {
+      width: 100%;
       font-size: 1.5rem;
     }
   }
@@ -153,10 +155,12 @@ const StyledProfile = styled.div<{ collapse: boolean }>`
   gap: 0.5rem;
 
   .profile-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
     img {
-      width: 2rem;
-      height: auto;
-      border-radius: 50%;
+      width: 100%;
     }
   }
   .name-section {
